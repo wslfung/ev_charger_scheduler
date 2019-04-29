@@ -32,9 +32,9 @@ class HECSApp extends StatelessWidget {
       children: <Widget>[
         Expanded(
           child: Card(
-            margin: EdgeInsets.all(10),
+            margin: EdgeInsets.fromLTRB(10, 10, 5, 10),
             child: Container(
-              padding: EdgeInsets.fromLTRB(10, 50, 5, 50),
+              padding: EdgeInsets.fromLTRB(10, 50, 10, 50),
               child: Center(
                   child: Column(
                     children: <Widget>[
@@ -55,9 +55,9 @@ class HECSApp extends StatelessWidget {
         ),
         Expanded(
           child: Card(
-            margin: EdgeInsets.all(10),
+            margin: EdgeInsets.fromLTRB(5, 10, 10, 10),
             child: Container(
-              padding: EdgeInsets.fromLTRB(5, 50, 10, 50),
+              padding: EdgeInsets.fromLTRB(10, 50, 10, 50),
               child: Center(
                   child: Column(
                     children: <Widget>[
@@ -67,7 +67,7 @@ class HECSApp extends StatelessWidget {
                         onPressed: () {
                         },
                         iconSize: 50,
-                        color: Color.fromRGBO(255, 50, 50, 1),
+                        color: Color.fromRGBO(50, 50, 255, 1),
                       ),
                     ],
                   )
